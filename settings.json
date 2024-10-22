@@ -19,7 +19,7 @@
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
-        "erb": "html"
+        "erb": "html",
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
@@ -56,7 +56,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -80,4 +79,14 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.panel.defaultLocation": "right",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false,
+      "yaml": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.enableSmartCommit": true,
 }
